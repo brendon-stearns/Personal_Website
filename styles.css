@@ -1,0 +1,144 @@
+/* Home Page */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   } 
+
+.wholepage {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.header {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 12px 24px 12px 24px;
+}
+
+.main-page-button-linkedin {
+    background-color: rgb(225, 225, 225);
+    color: black;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    font-size: 36px;
+    flex-shrink: 0;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.page-links {
+    background-color: rgb(175, 175, 175);
+    color: black;
+    border-radius: 15px;
+    border: none;
+    height: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.body {
+    display: flex;
+}
+
+.text {
+    min-height: 504px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+p {
+    padding: 8px;
+}
+
+ul {
+    padding: 8px 8px 8px 24px;
+}
+
+.footer {
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px 8px 24px;
+    width: 100vw;
+}
+
+.footer .pages .page-links {
+    background-color: rgb(175, 175, 175);
+}
+
+
+/* Professional and Personal Portfolio */
+
+.cats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.subprojects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 12px;
+}
+
+h2 {
+    background-color: rgb(200, 200, 200);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.subprojects img {
+    width: 177px;
+    height: auto;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+
+.contactbody {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    height: 0px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
